@@ -21,11 +21,18 @@ Use the navigation sidebar to test modules.
 
 st.info("Start with **STT Test** in the left menu.")
 
-import streamlit as st
 
 st.set_page_config(
     page_title="PedSovet AI – MVP",
     page_icon="🎓",
     layout="wide",
     initial_sidebar_state="expanded"
+)
+
+
+st.set_page_config(
+    page_title="PedSovet AI – MVP",
+    page_icon="🎓",
+    layout="wide",
+    initial_sidebar_state="expanded",
 )
